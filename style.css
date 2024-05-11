@@ -2,4 +2,63 @@ canvas {
 position:fixed;
   top:0;
   left:0;
+  width: 100%;
+  height: 100%;
 }
+
+main{
+  position:absolute;
+  width: 10vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding-top:10px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header{
+  padding-right: 10vw;
+  grid-column: span 7;
+  position:relative;
+
+}
+
+header h1{
+  font-size: 9vw;
+}
+
+header p1{
+  font-size:4vw;
+}
+
+h1{
+  font-family:Helvetica;
+  font-size:5vw;
+}
+
+p{
+  font-family:Helvetica;
+  font-size:3vw;
+}
+div{
+  padding-left:10vw;
+  padding-right:10vw;
+  grid-column:span 12;
+  padding-left: 10vw;
+}
+
+#me{
+  padding-left:10vw;
+  grid-column: span 1;
+  width:30vw;
+  height: 60vw;
+  object-fit:cover;
+  max-height:auto;
+}
+img{  padding-left:10vw;
+  grid-column: span 1;
+  width:40vw;
+  height: 60vw;}
